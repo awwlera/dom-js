@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JS</title>
+    <link rel="stylesheet" href="src/style/css/main.css">
+    <script src="src/js/main.js" defer></script>
+</head>
+<body>
+    <main class="main">
+        <!-- modal window -->
+        <div class="modal-holder">
+            <div class="btn-holder">
+                <span class="modal-text">Press the button to open the modal window:</span>
+                <button id="btn-open" class="btn">OPEN</button>
+            </div>
+            <div class="modal">
+                <span class="modal-text">Press the button to close the modal window:</span>
+                <button id="btn-close" class="btn">CLOSE</button>
+            </div>
+        </div>
+
+        <!-- traffic light -->
+        <div class="traffic-light-holder">
+            <div class="traffic-light">
+                <div id="light-red" class="light active"></div>
+                <div id="light-yellow" class="light"></div>
+                <div id="light-green" class="light"></div>
+            </div>
+            <div class="btn-holder-traffic">
+                <button class=" btn btn-traffic">Change colors</button>
+            </div>
+        </div>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modal-holder {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn-holder {
+    padding: 50px 0;
+    background-color: rgba(163, 159, 159, 0.8);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(43, 42, 42);
+}
+
+.modal {
+    padding: 50px 0;
+    background-color: rgba(163, 159, 159, 0.8);
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.modal-text {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.traffic-light-holder {
+    padding: 30px 10px;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.traffic-light {
+    width: 100px;
+    padding: 10px;
+    margin: 0 auto 20px;
+    background-color: black;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin:0 auto 15px;
+    border-radius: 50%;
+}
+
+.btn-traffic {
+    padding: 10px;
+}
+
+#light-red.active {
+    background-color: red;
+}
+
+#light-yellow.active {
+    background-color: yellow;
+}
+
+#light-green.active {
+    background-color: green;
+}
+
